@@ -1,0 +1,89 @@
+1-b
+
+2-d
+
+
+3-Completando no formato REST:
+const express = require('express');
+const app = express();
+let nome = {nome: 'Marcus Fenix'};
+app.get('/', (req, res) => {
+  res.json(nome);
+});
+app.listen(8080, () => {
+  console.log("Servidor iniciado");
+});
+
+
+4-Concurso público:
+const express = require('express');
+const app = express();
+let nota = 8;
+let resultado = nota > 7 ? 'Classificado' : 'Desclassificado';
+app.get('/', (req, res) => {
+  res.json({resultado});
+});
+app.listen(8080, () => {
+  console.log('Servidor iniciado');
+});
+
+
+5-Completando o código:
+Opção b
+
+
+6-Complete o código:
+const express = require('express');
+const application = express();
+let data = new Date();
+let dia_mes = {dia: data.getDate()};
+application.get('/', (req, res) => {
+  res.json(dia_mes);
+});
+application.listen(8080, () => {
+  console.log("Servidor iniciado");
+});
+
+
+7-Celular válido:
+const express = require('express');
+const app = express();
+let celular = '(21)99999-9999';
+let valido = celular.length === 14 ? true : false;
+app.get('/', (req, res) => {
+  res.json({telefone: valido});
+});
+app.listen(8080, () => {
+  console.log('Servidor iniciado');
+});
+
+
+8-Jogo:
+Opção a
+
+9-Alternativa correta:
+Opção d
+
+
+10-Hora atual:
+Opção b
+
+
+11-E-mail:
+Opção d
+
+
+12Padrão REST:
+Opção d
+
+13Verbos HTTP:
+exclui dados: DELETE
+insere dados: POST
+atualiza dados: PUT
+retorna dados: GET
+
+14-Nome e sobrenome:
+Opção d
+
+15-Estações do ano:
+Opção b

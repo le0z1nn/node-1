@@ -1,0 +1,15 @@
+PHP
+Linguagem: Script do lado do servidor.
+Modelo de Execução: Síncrono.
+Uso: Tradicionalmente usado em conjunto com LAMP (Linux, Apache, MySQL, PHP).
+Desempenho: Menos eficiente para muitos pedidos simultâneos.
+Frameworks: Laravel, Symfony, CodeIgniter.
+Aplicação: Ideal para sites e sistemas tradicionais de gestão de conteúdo, como WordPress.
+
+Node.js
+Linguagem: JavaScript no servidor.
+Modelo de Execução: Assíncrono e orientado a eventos.
+Uso: Comumente usado em MEAN/MERN (MongoDB, Express.js, Angular/React, Node.js).
+Desempenho: Melhor para operações de I/O intensivas e muitas conexões simultâneas.
+Frameworks: Express.js, Koa.js, Sails.js.
+Aplicação: Ideal para aplicações em tempo real, como chats e aplicações de streaming, e APIs RESTful.
